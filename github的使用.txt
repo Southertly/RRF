@@ -1,0 +1,26 @@
+1.在GitHub网站上创建项目
+2.在本地创个文件夹做项目
+3.在cmd中进入这个文件夹
+4.输入：git config --global user.name 'laoda'    #起个创建项目的人名字
+5.输入：git config --global user.email 'xx@qq.com'  #他的GitHub邮箱
+6.输入：git config -l   #查看创建的名字和邮箱 检查配置
+7.输入：git init  #在当前目录创建项目
+8.输入：git remote add origin（github上的链接）   #将本地电脑项目与远端关联，链接是不要括号的
+9.现在可以本地电脑这个文件夹里随便操作
+10.输入：git status  #查看本地文件发生了什么变化
+11.输入：git add *
+12.输入：git commit -m '注释’  #这两步是为了让本地修改生效
+13.输入：git push -u origin master   #将本地推送到远端
+14.去GitHub看‘laoda’账号下的仓库生效了
+
+小弟现在要加入这个项目
+1.在小弟的GitHub账号里搜索 laoda/项目名字
+2.点下右上角的fork  #把老大的项目拷到本地
+3.现在小弟可以修改文件了 修改完成后只是在小弟的账号里接下来保存到老大仓库里
+4.点一下Pull requests 
+5.点一下New pull request
+6.现在这里可以看出修改了什么
+7.点一下creat pull request 发送给老大了
+8.老大账号的pull requests下有改变
+9.老大觉得没问题 就点一下Merge pull request合并
+10.这里是填写寿命信息 点下confirm merge完成
